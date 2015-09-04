@@ -1,0 +1,98 @@
+body{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+}
+input, tetarea{
+  box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+#write,
+.title-input,
+.note-reminder{
+  display: block;
+}
+#write{
+  width: 80%;
+  height:100vh;
+  padding: 10%;
+  position: absolute;
+  top:0px;
+  background-color: rgba(0,0,0,.5);
+  display: none;
+  left: 0px;
+}
+#title-input{
+  width:100%;
+  margin-bottom: 10px;
+  height:25px;
+  font-size: 20px;
+  text-align: center;
+}
+#note-reminder{
+  width:100%;
+  height:20%;
+  font-size: 15px;
+}
+textarea{
+  resize: none;
+}
+.action{
+  float:right;
+  cursor: pointer;
+  margin-top:5px;
+  padding: 5px;
+  width: 45%;
+  height: 40px;
+}
+#post{
+  float: left;
+}
+button{
+  border-radius: 5px;
+  border-shadow: none;
+  background-color: green;
+  border: none;
+  padding: 5px;
+  color: white;
+}
+#add-note{
+  width: 40%;
+  margin-bottom: 3%;
+  height:50px;
+  font-size: 18px;
+  float: left;
+}
+#clear{
+  width: 40%;
+  margin-bottom: 3%;
+  height:50px;
+  font-size: 18px;
+  float: right;  
+}
+.post-it-container{
+  width: 90%;
+  margin-left: 3%;
+  border: 1px solid green;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.post-it-header{
+  text-align: center;
+  font-size: 2.1em;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.post-it-body{
+  font-size: 1.2em;
+}
+#note-container{
+  width:100%;
+}
+.edit-bar a{
+  float: right;
+  margin: 5px;
+  text-decoration: none;
+}
